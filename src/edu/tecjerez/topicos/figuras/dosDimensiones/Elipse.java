@@ -7,5 +7,10 @@ public class Elipse {
 		return area;
 	}
 	
+	private double perimetroElipse(double r, double s) {
+		double perimetro = Math.PI * ( (3*(r+s)) - Math.sqrt( ((3*r) + s) * (r + (3*s)) ) );
+		return perimetro;
+	}
+	
 	
 }
