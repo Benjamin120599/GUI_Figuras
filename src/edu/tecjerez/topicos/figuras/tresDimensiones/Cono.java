@@ -7,6 +7,11 @@ public class Cono {
 		return area;
 	}
 	
+	private double perimetroCono(double radio) {
+		double volumen = (1/3) * Math.PI * Math.pow(radio, 2);
+		return volumen;	
+	}
+	
 	
 	
 
