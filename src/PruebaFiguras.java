@@ -1,9 +1,20 @@
 
+import javax.swing.SwingUtilities;
+
+import edu.tecjerez.topicos.vista.*;
+
 public class PruebaFiguras {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	
+		SwingUtilities.invokeLater(new Runnable() {
+			
+			@Override
+			public void run() {
+				new VentanaPrincipal();
+			}
+		});
+			
 	}
 
 }

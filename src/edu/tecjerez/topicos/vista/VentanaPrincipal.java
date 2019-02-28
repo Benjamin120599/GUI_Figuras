@@ -19,6 +19,7 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
 		setSize(660, 400);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setVisible(true);
 		
 		
 		JPanel panel1 = new JPanel();
@@ -42,7 +43,6 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
 			panel1.add(lbly);
 			JLabel lbl2 = new JLabel("Coordenadas Punto 1");
 			
-			
 		add(panel1);
 		
 		JPanel panel2 = new JPanel();
@@ -58,13 +58,7 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
 		panel3.setVisible(true);
 		panel3.setBackground(new Color(161, 231, 137));
 		add(panel3);
-		
-		
-		
-		
-		
-		//
-		
+
 		
 	}
 
