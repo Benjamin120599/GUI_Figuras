@@ -26,37 +26,21 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
 			panel1.setBounds(10, 10, 200, 340);
 			panel1.setLayout(null);
 			panel1.setVisible(true);
-			panel1.setBackground(new Color(137, 216, 231));
-			
-			JLabel lblTit = new JLabel("Distancia entre Dos Puntos.");
-				lblTit.setBounds(7, 10, 200, 30);
-				lblTit.setFont(titulo);
-			panel1.add(lblTit);
-			
-			JLabel lblx = new JLabel("X");
-				lblx.setBounds(30, 50, 50, 30);
-				lblx.setFont(titulo);
-			panel1.add(lblx);
-			JLabel lbly = new JLabel("Y");
-				lbly.setBounds(100, 50, 50, 30);
-				lbly.setFont(titulo);
-			panel1.add(lbly);
-			JLabel lbl2 = new JLabel("Coordenadas Punto 1");
-			
+			panel1.setBackground(new Color(137, 216, 231));		
 		add(panel1);
 		
 		JPanel panel2 = new JPanel();
-		panel2.setBounds(220, 10, 200, 340);
-		panel2.setLayout(null);
-		panel2.setVisible(true);
-		panel2.setBackground(new Color(231, 128, 107));
+			panel2.setBounds(220, 10, 200, 340);
+			panel2.setLayout(null);
+			panel2.setVisible(true);
+			panel2.setBackground(new Color(231, 128, 107));
 		add(panel2);
 		
 		JPanel panel3 = new JPanel();
-		panel3.setBounds(430, 10, 200, 340);
-		panel3.setLayout(null);
-		panel3.setVisible(true);
-		panel3.setBackground(new Color(161, 231, 137));
+			panel3.setBounds(430, 10, 200, 340);
+			panel3.setLayout(null);
+			panel3.setVisible(true);
+			panel3.setBackground(new Color(161, 231, 137));
 		add(panel3);
 
 		
